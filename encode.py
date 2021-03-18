@@ -21,7 +21,7 @@ def remote_css(url):
 
 
 
-local_css("/Users/Naila/Desktop/NewProject/style.css")
+local_css("style.css")
 remote_css('https://fonts.googleapis.com/icon?family=Material+Icons')
 
 # dataset_name = st.sidebar.selectbox(
