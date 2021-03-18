@@ -1,0 +1,37 @@
+
+body {
+    background-color: 	#FFF5EE;
+    font-weight: bold;
+    
+}
+
+.stButton>button {
+    color: 			#4169E1;
+    border-color: 	#4682B4;
+    border-width: 0.03cm;
+    border-radius: 10%;
+    font-weight: bold;
+    background-color: 		#F5FFFA;
+    
+}
+
+.header {
+    color: 			#4169E1;
+      text-align: center;
+}
+
+.css-1aumxhk {
+    background-color: #B0E0E6;
+    background-image: none;
+    color: #ffffff
+    }
+
+div[data-baseweb="select"] > div {
+     background-color: #F5FFFA;
+     border-color: 	#4682B4;
+    }
+
+
+div[role="listbox"] ul {
+    background-color: #F5FFFA;
+    }
