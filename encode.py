@@ -214,5 +214,5 @@ except:
 
 
 if st.sidebar.button("Show Dataset"):
-    st.table(data.head(10))
+    st.dataframe(data)
 
