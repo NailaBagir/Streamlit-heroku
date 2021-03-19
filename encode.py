@@ -96,9 +96,12 @@ dataset_choosing = st.sidebar.selectbox(
     ('No', 'Yes')
 )
 
-if dataset_choosing == 'Yes':
-    st.write('Shape of dataset:', data.shape)
-    st.dataframe(data)
+try:
+    if dataset_choosing == 'Yes':
+         st.write('Shape of dataset:', data.shape)
+         st.dataframe(data)
+except:
+    pass
 
 #Encoding
 choose_encoding= st.sidebar.selectbox(
